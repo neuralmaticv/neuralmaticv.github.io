@@ -43,7 +43,7 @@ The programme featured a series of talks, ranging from deep learning and reinfor
 Several lectures particularly caught my attention:
 
 **Computer Vision - João Carreira**  
-An excellent overview of computer vision's trajectory - from CNNs through Vision Transformers to Perceiver Transformer-based models. The Perceiver architecture was particularly interesting: using cross-attention and latent self-attention where data only enters through the cross-attention mechanism, allowing smaller latent array sizes whilst accepting any modality (images, video, audio, point clouds) and overcoming computational bottlenecks in Transformers
+An excellent overview of computer vision's trajectory - from CNNs through Vision Transformers to Perceiver Transformer-based models. The Perceiver architecture was particularly interesting: using cross-attention and latent self-attention where data only enters through the cross-attention mechanism, allowing smaller latent array sizes whilst accepting any modality (images, video, audio, point clouds) and overcoming computational bottlenecks in Transformers.
 
 The language + vision integration was well-covered, though it left me wondering whether we're sometimes overcomplicating things by forcing language into every vision task.
 
@@ -104,7 +104,7 @@ The networking opportunities were incredible, and honestly, as someone who's nat
 
 **Technical Discussions and Career Insights** 
 
-I had more conversations than I expected, covering an amazing range of topics and projects. The diversity of work was remarkable - from high-performance Python implementations achieving 10-100x speedups by compiling to native machine code, to autonomous robotics projects combining multiple computer vision architectures for real-world applications. One particularly fascinating area was deepfake detection and AI-generated content identification - increasingly crucial as synthetic media technology advances. We also discussed various NLP tools for document management systems, with fascinating insights into different approaches to similar challenges.
+I had more conversations than I expected, covering an impressive range of topics and projects. The diversity of work was remarkable - from high-performance Python implementations achieving 10-100x speedups by compiling to native machine code, to autonomous robotics projects combining multiple computer vision architectures for real-world applications. One particularly interesting area was deepfake detection and AI-generated content identification - increasingly crucial as synthetic media technology advances. I also had the chance to chat with several people about NLP work in document management, sharing experiences with effective open-source models and discussing different approaches for creating evaluation benchmarks. It's always valuable hearing how others approach similar technical challenges.
 
 Learning about others' experiences studying abroad and their research was incredibly valuable for my own future planning. Discussions about international master's programmes (which I've been exploring) provided practical insights I couldn't find elsewhere.
 
