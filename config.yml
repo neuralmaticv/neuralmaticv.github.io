@@ -1,5 +1,5 @@
 languageCode: en-us
-baseURL: "https://gradientflow.tech/"
+baseURL: "https://gradientflow.tech"
 title: GradientFlow - Vladimir Mijić's Personal Blog
 pagination:
    pageSize: 5
