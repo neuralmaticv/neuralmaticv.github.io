@@ -1,6 +1,6 @@
 languageCode: en-us
-baseURL: "https://vladocodes.github.io/"
-title: Vladimir Mijić - Machine Learning & AI
+baseURL: "https://gradientflow.tech/"
+title: GradientFlow - Vladimir Mijić's Personal Blog
 pagination:
    pageSize: 5
 theme: hugo-PaperMod
@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: UA-123-45
+#googleAnalytics: 
 
 minify:
   disableXML: true
@@ -18,9 +18,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Vladimir Mijić - Computer Science Student
-  description: "My name is Vladimir and I am a Computer Science Student."
-  keywords: [Machine Learning, Artificial Intelligence , Student, Projects, Neural Networks]
+  title: Vladimir Mijić - AI/ML Engineer
+  description: "Aspiring AI/ML Engineer passionate about Computer Vision, ethical AI, and open data initiatives."
+  keywords: [AI, Machine Learning, Computer Vision, Deep Learning, Ethical AI, Open Data, Neural Networks]
   author: Vladimir Mijić 
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -29,7 +29,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -42,20 +42,17 @@ params:
   tocopen: false
 
   label:
-    text: "Vladimir's site"
+    text: "GradientFlow"
     icon: "images/gen_art.png"
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Hello there \U0001F44B"
-    subtitle: "I am Vladimir Mijić, a Computer Science Student.<br> 
-     I have a strong interest in **open data** and **machine learning**.<br>
-     🤖 Currently a ML/AI Research Student at _<a href='https://www.lanaco.com/en/lanaco-information-technology/' target='_blank'>LANACO</a>_<br>
-     🇧🇦 Senior Scholar & volunteer at _<a href='https://www.bhfuturesfoundation.org/' target='_blank'>BH Futures Foundation</a>_<br>
-     👨‍💻 Volunteer at _<a href='https://birn.eu.com/' target='_blank'>BIRN's</a>_ CODE4SEE network
-    "
+    title: "Hello there 👋, I'm Vladimir"
+    subtitle: "👨🏻‍💻 AI/ML Engineer @ _<a href='https://www.lanaco.com/' target='_blank'>LANACO</a>_ | 🇧🇦 _<a href='https://www.bhfuturesfoundation.org/' target='_blank'>BH Futures Foundation</a>_ Alumni<br>
+    👨‍💻 Volunteer @ _<a href='https://birn.eu.com/' target='_blank'>BIRN's</a>_ CODE4SEE network<br>
+    🐕 Human to Lexi | 💡 Always code for good!"
     imageUrl: "images/avatar.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -72,14 +69,12 @@ params:
       url: "https://github.com/neuralmaticv"
     - name: linkedin
       url: "https://www.linkedin.com/in/vladimir-mijic/"
-    - name: instagram
-      url: "https://www.instagram.com/vlatko_gradientflow/"
     - name: twitter
       url: "https://twitter.com/neuralmaticv"
-    - name: mastodon
-      url: "https://sigmoid.social/@vlado"
-    - name: email
-      url: "mailto:vladocodes@gmail.com"
+    - name: other
+      url: "https://huggingface.co/gradientflow"
+    - name: instagram
+      url: "https://www.instagram.com/vlatko_gradientflow/"
 
   # analytics:
   #   google:
@@ -102,6 +97,12 @@ params:
     Text: "" # edit text
     appendFilePath: true # to append file path to Edit link
 
+  assets:
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+
   # for search
   # https://fusejs.io/api/options.html
   # fuseOpts:
@@ -113,20 +114,20 @@ params:
   #   minMatchCharLength: 0
   #   keys: ["title", "permalink", "summary", "content"]
 
-# menu:
-#   main:
-#     - identifier: about
-#       name: About
-#       url: /about/
-#       weight: 4
-#     - identifier: blog
-#       name: Blogs
-#       url: /blogs/
-#       weight: 1
-#     - identifier: projects
-#       name: Projects
-#       url: /projects/
-#       weight: 2
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
     # - identifier: infographics
     #   name: Infographics
     #   url: /infographics/
@@ -155,3 +156,8 @@ markup:
   goldmark:
    renderer:
      unsafe: true
+
+imaging:
+  resampleFilter: "lanczos"
+  quality: 85
+  anchor: "smart"
