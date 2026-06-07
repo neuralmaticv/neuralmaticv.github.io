@@ -1,3 +1,1 @@
-# Projects 
-
-**🚀 Coming Soon...**
+# Projects
