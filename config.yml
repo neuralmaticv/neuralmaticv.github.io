@@ -56,10 +56,10 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Hello there 👋, I'm Vladimir"
-    subtitle: "👨🏻‍💻 AI/ML Engineer @ _<a href='https://www.lanaco.com/' target='_blank'>LANACO</a>_ | 🇧🇦 _<a href='https://www.bhfuturesfoundation.org/' target='_blank'>BH Futures Foundation</a>_ Alumni<br>
-    👨‍💻 Volunteer @ _<a href='https://birn.eu.com/' target='_blank'>BIRN's</a>_ CODE4SEE network<br>
-    🐕 Human to Lexi | 💡 Always code for good!"
+    title: "Hi, I'm Vladimir 👋"
+    subtitle: "AI/ML Engineer @ <a href='https://www.lanaco.com/' target='_blank' rel='noopener'>LANACO</a><br>
+    <a href='https://www.bhfuturesfoundation.org/' target='_blank' rel='noopener'>BH Futures Foundation</a> alumni · <a href='https://birn.eu.com/' target='_blank' rel='noopener'>BIRN</a> CODE4SEE volunteer<br>
+    🐕 Human to Lexi · 💡 Always code for good"
     imageUrl: "images/avatar.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -135,6 +135,10 @@ menu:
       name: Projects
       url: /projects/
       weight: 2
+    - identifier: speaking
+      name: Speaking
+      url: /speaking/
+      weight: 3
     # - identifier: infographics
     #   name: Infographics
     #   url: /infographics/
@@ -142,11 +146,11 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 3
+      weight: 5
     - identifier: search
       name: Search
       url: /search/
-      weight: 5
+      weight: 6
 
     #- identifier: example
     #  name: example.org

@@ -112,7 +112,7 @@ Learning about others' experiences studying abroad and their research was incred
 
 One of the highlights was connecting with fellow BH Futures Foundation alumni and scholars who were also attending EEML. It's always nice to see how our BHFF community continues to grow and excel in various fields!
 
-![BHFF group with Samy Bengio](eeml_bhff_samy.jpg "BH Futures Foundation alumni and scholars with Samy Bengio at EEML 2025")
+<img src="eeml_bhff_samy.jpg" alt="BHFF group with Samy Bengio" title="BH Futures Foundation alumni and scholars with Samy Bengio at EEML 2025" loading="lazy" style="max-height: 70vh; width: auto; max-width: 100%; display: block; margin: 1rem auto; border-radius: 8px;">
 
 **What a moment!** Meeting Samy Bengio alongside my BHFF colleagues was truly inspiring.
 
