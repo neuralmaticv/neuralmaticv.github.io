@@ -4,6 +4,8 @@ date: 2025-06-01
 draft: false
 tags: ["open data", "urban mobility", "civic tech", "open source", "Bosnia and Herzegovina"]
 description: "An independent, community-driven open-source project providing public transit information and resources for Banja Luka."
+hidemeta: true
+ShowReadingTime: false
 ---
 
 **BLum** is an independent open-source initiative aimed at improving urban mobility in Banja Luka by making public transit information accessible and open.

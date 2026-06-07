@@ -1,6 +1,6 @@
 # About me
 
-Aspiring AI/ML Engineer passionate about Computer Vision, Natural Language Processing, ethical AI, and open data initiatives. I enjoy contributing to projects that promote digital rights and a decentralised internet.
+AI/ML Engineer passionate about Computer Vision, Natural Language Processing, ethical AI, and open data initiatives. I enjoy contributing to projects that promote digital rights and a decentralised internet.
 
 As a BH Futures Foundation alumnus, I'm committed to supporting STEM innovation in Bosnia and Herzegovina, my home country.
 
@@ -26,4 +26,6 @@ For the most up-to-date professional experience, visit my [LinkedIn profile](htt
 
 ---
 
-Feel free to reach out for a chat about similar topics (though we both know nobody actually does this).
+## Get in touch
+
+Feel free to reach out for a chat about AI/ML, open data, or anything else worth exploring. You'll find me on the platforms linked from the [homepage](/).

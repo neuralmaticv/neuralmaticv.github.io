@@ -26,7 +26,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Vladimir Mijić - AI/ML Engineer
-  description: "Aspiring AI/ML Engineer passionate about Computer Vision, ethical AI, and open data initiatives."
+  description: "AI/ML Engineer passionate about Computer Vision, ethical AI, and open data initiatives."
   keywords: [AI, Machine Learning, Computer Vision, Deep Learning, Ethical AI, Open Data, Neural Networks]
   author: Vladimir Mijić 
   # author: ["Me", "You"] # multiple authors
@@ -36,7 +36,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -64,11 +64,11 @@ params:
     imageWidth: 120
     imageHeight: 120
     imageTitle: "Vladimir"
-    # buttons:
-    #   - name: Blogs
-    #     url: blogs
-    #   - name: Projects
-    #     url: projects
+    buttons:
+      - name: Blog
+        url: posts
+      - name: Projects
+        url: projects
 
 
   socialIcons:
@@ -112,14 +112,14 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
-  # fuseOpts:
-  #   isCaseSensitive: false
-  #   shouldSort: true
-  #   location: 0
-  #   distance: 1000
-  #   threshold: 0.4
-  #   minMatchCharLength: 0
-  #   keys: ["title", "permalink", "summary", "content"]
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
@@ -139,10 +139,14 @@ menu:
     #   name: Infographics
     #   url: /infographics/
     #   weight: 3
-    #- identifier: tags
-    #  name: tags
-    #  url: /tags/
-    #  weight: 4
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 5
 
     #- identifier: example
     #  name: example.org
