@@ -1,0 +1,23 @@
+{{- /* Auto-resize and convert page-bundle images to WebP for lighter pages. */ -}}
+{{- $url := urls.Parse .Destination -}}
+{{- $src := .Destination -}}
+{{- $alt := .PlainText | default .Text -}}
+{{- $title := .Title -}}
+{{- if and (not $url.IsAbs) .Page -}}
+  {{- with .Page.Resources.GetMatch (strings.TrimPrefix "./" .Destination) -}}
+    {{- $img := . -}}
+    {{- if gt .Width 1200 -}}
+      {{- $img = .Resize "1200x webp q85" -}}
+    {{- else -}}
+      {{- $img = .Process "webp q85" -}}
+    {{- end -}}
+    {{- $src = $img.RelPermalink -}}
+    <img loading="lazy" decoding="async" src="{{ $src }}" alt="{{ $alt }}"
+      {{- with $title }} title="{{ . }}"{{ end }}
+      width="{{ $img.Width }}" height="{{ $img.Height }}" />
+  {{- else -}}
+    <img loading="lazy" decoding="async" src="{{ $src }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} />
+  {{- end -}}
+{{- else -}}
+  <img loading="lazy" decoding="async" src="{{ $src }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} />
+{{- end -}}
