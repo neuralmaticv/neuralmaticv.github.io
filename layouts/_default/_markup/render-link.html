@@ -1,0 +1,8 @@
+{{- /* Open external links and file downloads in a new tab; keep internal page
+       links in the same tab (better UX). Adds rel=noopener for security. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $isHTTP := or (eq $u.Scheme "http") (eq $u.Scheme "https") -}}
+{{- $external := or (and $u.IsAbs $isHTTP) (strings.HasPrefix .Destination "//") -}}
+{{- $download := in (slice ".pdf" ".zip" ".pptx" ".ppt" ".key" ".csv" ".xlsx" ".docx") (path.Ext (lower $u.Path)) -}}
+{{- $newtab := or $external $download -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $newtab }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text }}</a>
