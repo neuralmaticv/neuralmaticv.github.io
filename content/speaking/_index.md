@@ -11,7 +11,7 @@ Building practical pipelines that turn unstructured documents into clean, struct
 - **Links:** [Slides](/slides/2026-ai-festival-document-processing-pipelines-vmijic.pdf) (English) · [Program (archived)](https://web.archive.org/web/20260611102131/https://thellpa.com/aifestival/)
 - **Format:** Online talk
 
-## Working with AI assistants: what they give, and what they take away
+## Working with AI agents: what they give, and what they take away
 
 How AI agents are reshaping software engineering: the productivity they bring, and the "cognitive debt" and critical thinking they can quietly erode.
 
