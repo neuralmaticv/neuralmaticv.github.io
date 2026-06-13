@@ -1,8 +1,14 @@
 # About me
 
-AI/ML Engineer passionate about Computer Vision, Natural Language Processing, ethical AI, and open data initiatives. I enjoy contributing to projects that promote digital rights and a decentralised internet.
+I'm an AI/ML Engineer focused on computer vision, natural language processing, ethical AI, open data, and edge AI systems.
 
-As a BH Futures Foundation alumnus, I'm committed to supporting STEM innovation in Bosnia and Herzegovina, my home country.
+I care about the software engineering behind AI, not just the models themselves. Most of my time goes into the details: data, model behaviour, system design, and understanding what actually makes something work in practice. Part of that work has been data processing on edge devices such as routers and gateways, where resource limits and reliability are hard constraints. Open source and open weight models are where most of my interest lies.
+
+I've also mentored several groups of college student interns, helping them apply what they studied in a real engineering context.
+
+As a BH Futures Foundation alumnus, I care about STEM development in Bosnia and Herzegovina, my home country. I also enjoy contributing to projects that promote digital rights and a decentralised internet.
+
+When I'm not working, you'll usually find me hiking or spending time with my dog, Lexi. ❤️
 
 ## Why blog?
 
@@ -28,4 +34,4 @@ For the most up-to-date professional experience, visit my [LinkedIn profile](htt
 
 ## Get in touch
 
-Feel free to reach out for a chat about AI/ML, open data, or anything else worth exploring. You'll find me on the platforms linked from the [homepage](/).
+Get in touch if you want to discuss AI/ML, open data, or anything else worth exploring. I'm still early in my career and always open to feedback. You'll find me on the platforms linked from the [homepage](/).
